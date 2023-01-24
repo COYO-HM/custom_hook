@@ -8,6 +8,7 @@ import UsePreventLeaveExample from "./example/UsePreventLeaveExample";
 import UseBeforeLeaveExample from "./example/UseBeforeLeaveExample";
 import UseFadeInExample from "./example/UseFadeInExample";
 import UseNetworkExample from "./example/UseNetworkExample";
+import UseScrollExample from "./example/UseScrollExample";
 import "./style/index.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <UseBeforeLeaveExample />
       <UseFadeInExample />
       <UseNetworkExample />
+      <UseScrollExample />
     </div>
   );
 }
