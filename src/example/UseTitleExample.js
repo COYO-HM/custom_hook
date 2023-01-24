@@ -12,7 +12,7 @@ const UseTitleExample = () => {
         style={{
           display: "grid",
           gap: "10px",
-          gridTemplateColumns: "1fr 200px",
+          gridTemplateColumns: "1fr 150px",
         }}
       >
         <input {...title} placeholder="Input Title" />

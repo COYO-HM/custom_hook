@@ -13,7 +13,9 @@ const UseTabsExample = () => {
       <h1>UseTabs</h1>
       <div style={{ display: "flex" }}>
         {MENU_LIST.map((menu, idx) => (
-          <button onClick={() => changeItem(idx)}>{menu.tab}</button>
+          <button key={idx} onClick={() => changeItem(idx)}>
+            {menu.tab}
+          </button>
         ))}
       </div>
       <div>{currentItem.content}</div>

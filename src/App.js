@@ -1,4 +1,6 @@
 import UseClickExample from "./example/UseClickExample";
+import UseConfirmExample from "./example/UseConfirmExample";
+import UseHoverExample from "./example/UseHoverExample";
 import UseInputExample from "./example/UseInputExample";
 import UseTabsExample from "./example/UseTabsExample";
 import UseTitleExample from "./example/UseTitleExample";
@@ -11,6 +13,8 @@ function App() {
       <UseTabsExample />
       <UseTitleExample />
       <UseClickExample />
+      <UseHoverExample />
+      <UseConfirmExample />
     </div>
   );
 }
