@@ -7,6 +7,7 @@ import UseTitleExample from "./example/UseTitleExample";
 import UsePreventLeaveExample from "./example/UsePreventLeaveExample";
 import UseBeforeLeaveExample from "./example/UseBeforeLeaveExample";
 import UseFadeInExample from "./example/UseFadeInExample";
+import UseNetworkExample from "./example/UseNetworkExample";
 import "./style/index.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <UsePreventLeaveExample />
       <UseBeforeLeaveExample />
       <UseFadeInExample />
+      <UseNetworkExample />
     </div>
   );
 }
