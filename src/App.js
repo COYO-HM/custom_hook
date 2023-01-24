@@ -11,6 +11,7 @@ import UseNetworkExample from "./example/UseNetworkExample";
 import UseScrollExample from "./example/UseScrollExample";
 import UseFullScreenExample from "./example/UseFullScreenExample";
 import UseNotificationExample from "./example/UseNotificationExample";
+import UseAxiosExample from "./example/UseAxiosExample";
 import "./style/index.css";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <UseScrollExample />
       <UseFullScreenExample />
       <UseNotificationExample />
+      <UseAxiosExample />
     </div>
   );
 }
