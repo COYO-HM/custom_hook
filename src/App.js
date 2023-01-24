@@ -9,6 +9,7 @@ import UseBeforeLeaveExample from "./example/UseBeforeLeaveExample";
 import UseFadeInExample from "./example/UseFadeInExample";
 import UseNetworkExample from "./example/UseNetworkExample";
 import UseScrollExample from "./example/UseScrollExample";
+import UseFullScreenExample from "./example/UseFullScreenExample";
 import "./style/index.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <UseFadeInExample />
       <UseNetworkExample />
       <UseScrollExample />
+      <UseFullScreenExample />
     </div>
   );
 }
