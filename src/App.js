@@ -4,6 +4,7 @@ import UseHoverExample from "./example/UseHoverExample";
 import UseInputExample from "./example/UseInputExample";
 import UseTabsExample from "./example/UseTabsExample";
 import UseTitleExample from "./example/UseTitleExample";
+import UsePreventLeaveExample from "./example/UsePreventLeaveExample";
 import "./style/index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <UseClickExample />
       <UseHoverExample />
       <UseConfirmExample />
+      <UsePreventLeaveExample />
     </div>
   );
 }
