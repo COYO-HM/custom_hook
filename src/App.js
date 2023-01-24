@@ -6,6 +6,7 @@ import UseTabsExample from "./example/UseTabsExample";
 import UseTitleExample from "./example/UseTitleExample";
 import UsePreventLeaveExample from "./example/UsePreventLeaveExample";
 import UseBeforeLeaveExample from "./example/UseBeforeLeaveExample";
+import UseFadeInExample from "./example/UseFadeInExample";
 import "./style/index.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <UseConfirmExample />
       <UsePreventLeaveExample />
       <UseBeforeLeaveExample />
+      <UseFadeInExample />
     </div>
   );
 }
