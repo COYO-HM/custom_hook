@@ -10,6 +10,7 @@ import UseFadeInExample from "./example/UseFadeInExample";
 import UseNetworkExample from "./example/UseNetworkExample";
 import UseScrollExample from "./example/UseScrollExample";
 import UseFullScreenExample from "./example/UseFullScreenExample";
+import UseNotificationExample from "./example/UseNotificationExample";
 import "./style/index.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <UseNetworkExample />
       <UseScrollExample />
       <UseFullScreenExample />
+      <UseNotificationExample />
     </div>
   );
 }
