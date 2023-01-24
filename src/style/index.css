@@ -8,10 +8,19 @@
   margin-bottom: 30px;
 }
 
-#example > input {
-  padding: 5px 10px;
+input {
+  padding: 5px 15px;
   outline: none;
   border-radius: 10px;
   border: none;
   font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(255, 223, 95);
 }

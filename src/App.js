@@ -1,5 +1,6 @@
 import UseInputExample from "./example/UseInputExample";
 import UseTabsExample from "./example/UseTabsExample";
+import UseTitleExample from "./example/UseTitleExample";
 import "./style/index.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <UseInputExample />
       <UseTabsExample />
+      <UseTitleExample />
     </div>
   );
 }
